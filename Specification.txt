@@ -1,0 +1,104 @@
+Title: Deposit - deposit money into an account
+
+Narrative:
+As a person (account holder)
+I wish to deposit money into my account
+So that I can have a secure place to save my money
+and increase the balance of my account
+
+Scenario: Deposit money into a new account
+Given a bank account has been created 
+And the balance is zero
+When the account holder deposits money into the account
+Then the balance of the account increases by the amount deposited
+
+
+Scenario: Deposit money into a exisiting account
+Given a bank account exists 
+And the balance exists 
+When the account holder deposits money into the account
+Then the balance of the account increases by the amount deposited
+
+
+Scenario: Deposit negative amount of money
+Given 
+When
+Then
+
+
+Scenario: Deposit zero amount of money
+Given 
+When
+Then
+
+
+Scenario: Deposit money into a frozen account
+Given 
+When
+Then
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Title: Withdrawal - withdraw money from an account
+
+
+Title: Transfer - transfer money between accounts
+
+
+Title: Account statement (date, amount, balance)
+	- print out an account statement containing
+		Date     Amount     Balance
+		----     ------     -------
+
+
+Title: Statement printing - Print a statement on demand
+
+
+
+Title: Statement filters (just deposits, withdrawal, date) - Print statement by conditions
+		- just deposits
+		- withdrawal
+		- date
+
+Title: Print a receipt after each deposit or withdraw
+
+Title: Post a summary statement to account holders address
+Statement list transactions with data, amount, balance

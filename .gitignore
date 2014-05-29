@@ -1,0 +1,34 @@
+*.class
+out/
+
+# Eclipse stuff #
+.settings/
+.classpath
+.project
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+# Ignore . & ~ files except .gitignore #
+*~
+.*
+!/.gitignore
+sonar-project.properties
+target/
+res/
+java/resources/apiKeys/*.properties
+!logback.xml
+*.log
+
+# Csharp files
+obj/
+bin/
+App.config
+*.sln
+*.json
+
+# IntelliJ IDEA files
+*.iml
+.idea/
